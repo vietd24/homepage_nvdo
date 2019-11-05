@@ -1,0 +1,20 @@
+version: '3'
+services:
+  hugo:
+    image: jguyomard/hugo-builder
+    volumes: 
+      - ~/homepage_nvdo:/src
+    network_mode: "none"
+    command: hugo
+  nginx:
+    build: ./nginx/
+    ports:
+      - "443:443"
+      - "80:80"
+    volumes:
+      - ~/certs:/etc/nginx/ssl
+      - ./public:/public
+    depends_on:
+      - hugo
+    restart: unless-stopped
+    
