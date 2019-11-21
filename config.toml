@@ -15,18 +15,17 @@ googleAnalytics = "UA-151585915-1"
 
 [params]
     author = "Nguyen Viet Do"
-    info = "Most of the time Developer"
-    description = "1 Website"
-    keywords = "blog,developer,personal"
+    info = "Most of the time Developer, sometimes Designer :)"
+    description = "This is me"
+    keywords = "creator,developer,personal"
     avatarurl = "images/author.jpg"
 
-    favicon_32 = "/img/favicon-32x32.png"
-    favicon_16 = "/img/favicon-16x16.png"
+    footercontent = "Nothing down here..."
 
     footercontent = "Nothing down here :)"
 
     hidecredits = true
-    hidecopyright = false
+    hidecopyright = true
 
     rtl = false
 
