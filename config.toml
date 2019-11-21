@@ -22,8 +22,6 @@ googleAnalytics = "UA-151585915-1"
 
     footercontent = "Nothing down here..."
 
-    footercontent = "Nothing down here :)"
-
     hidecredits = true
     hidecopyright = true
 
@@ -52,11 +50,7 @@ googleAnalytics = "UA-151585915-1"
     url = "https://www.xing.com/profile/NguyenViet_Do/"
 
 # Menu links
-#[[menu.main]]
- #   name = "Blog"
-  #  weight = 1
-   # url  = "/posts/"
-#[[menu.main]]
- #   name = "Contact"
-  #  weight = 2
-   # url = "/contact/"
+[[menu.main]]
+    name = "Contact"
+    weight = 1
+    url = "contact/"
