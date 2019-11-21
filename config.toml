@@ -11,6 +11,7 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+googleAnalytics = "UA-151585915-1"
 
 [params]
     author = "Nguyen Viet Do"
@@ -44,6 +45,12 @@ pygmentscodefencesguesssyntax = true
     icon = "fab fa-linkedin-in fa-2x"
     weight = 2
     url = "https://www.linkedin.com/in/nguyen-viet-do-0b4152163/"
+
+[[params.social]]
+    name = "Xing"
+    icon = "fab fa-xing fa-2x"
+    weight = 3
+    url = "https://www.xing.com/profile/NguyenViet_Do/"
 
 # Menu links
 #[[menu.main]]
