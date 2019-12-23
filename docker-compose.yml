@@ -3,7 +3,7 @@ services:
   hugo:
     image: jguyomard/hugo-builder
     volumes: 
-      - ~/homepage_nvdo:/src
+      - ./:/src
     network_mode: "none"
     command: hugo
   nginx:
@@ -11,7 +11,6 @@ services:
     ports:
       - "8888:80"
     volumes:
-      - ~/certs:/etc/nginx/ssl
       - ./public:/public
     depends_on:
       - hugo
