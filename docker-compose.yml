@@ -9,8 +9,7 @@ services:
   nginx:
     build: ./nginx/
     ports:
-      - "443:443"
-      - "80:80"
+      - "8888:80"
     volumes:
       - ~/certs:/etc/nginx/ssl
       - ./public:/public
